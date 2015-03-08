@@ -2,11 +2,13 @@ body { background: #e0e0e0; color:#e8e1e7; font-family: Lato; }
 
 #header { color:#212121; width:100%; height:60px; line-height:60px; font-size:30px; margin:none; padding:0 20px; }
 
-.dog { background:#1a1a1a; width:475px; height:400px; margin:26px 0; padding:0 45px; line-height:40px; font-size:26px; border-radius:14px; cursor:pointer;-webkit-transition: all 0.4s ease-out;-moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out; transition: all 0.4s ease-out;}
+.dog { background-color:#1a1a1a; width:475px; height:400px; margin:26px 0;  line-height:40px; font-size:26px; border-radius:14px; cursor:pointer;-webkit-transition: all 0.4s ease-out;-moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out; transition: all 0.4s ease-out;}
+
+.dogHeading { background: repeating-linear-gradient( 45deg, transparent, transparent 10px, #202020 10px, #202020 20px); width:calc(100% - 90px); padding:0 45px; border-radius:14px; }
 .dog.collapsed { height:40px; }
 .dog .badge { width:160px; height:160px; float:left; border-radius:30px; overflow:hidden; margin-top:10px; margin-right:7px; cursor:pointer;-webkit-transition: all 0.4s ease-out;-moz-transition:all 0.4s ease-out; -ms-transition:all 0.4s ease-out; transition: all 0.4s ease-out; border:1px solid #1a1a1a;}
 .dog.collapsed .badge { width:60px; height:60px; margin-top:-10px; }
 .dog .badge img { width:100%; height:100%; }
 
 .dog.collapsed .description { height:0px; overflow:hidden; opacity: 0; }
-.dog .description { height:auto; font-size:12px; opacity:1;line-height:20px; -webkit-transition:opacity .5s linear; -moz-transition:opacity .5s linear; -ms-transition:opacity .5s linear; transition:opacity .5s linear;-webkit-transition-delay: .5s; }
+.dog .description { height:auto; font-size:12px; opacity:1;line-height:20px; -webkit-transition:opacity .5s linear; -moz-transition:opacity .5s linear; -ms-transition:opacity .5s linear; transition:opacity .5s linear;-webkit-transition-delay: .5s; margin:10px;}

@@ -1,1 +1,8 @@
-body { background: #181818; color:#e8e1e7;}
+body { background: #181818; color:#e8e1e7; font-family: Lato; }
+
+#header { background:#232323; color:#f3f3f3; width:100%; height:60px; line-height:60px; font-size:30px; margin:none; padding:0 20px; }
+
+.dog.collapsed { background:#202020; width:100%; height:40px; margin:4px 0; padding:0 45px; line-height:40px; font-size:26px; }
+
+.dog.collapsed .badge { width:32px; height:32px; float:left; border-radius:16px; overflow:hidden; }
+.dog.collapsed .badge img { width:100%; height:100%; }

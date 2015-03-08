@@ -2,7 +2,11 @@ body { background: #232323; color:#e8e1e7; font-family: Lato; }
 
 #header { color:#f3f3f3; width:100%; height:60px; line-height:60px; font-size:30px; margin:none; padding:0 20px; }
 
-.dog.collapsed { background:#1a1a1a; width:100%; height:40px; margin:22px 0; padding:0 45px; line-height:40px; font-size:26px; border-radius:14px;}
-.dog.collapsed .badge { width:60px; height:60px; float:left; border-radius:30px; overflow:hidden; margin-top:-10px; margin-right:7px;}
-.dog.collapsed .badge img { width:100%; height:100%; }
+.dog { background:#1a1a1a; width:475px; margin:22px 0; padding:0 45px; line-height:40px; font-size:26px; border-radius:14px;}
+.dog.collapsed { height:40px; }
+.dog .badge { width:100px; height:100px; float:left; border-radius:30px; overflow:hidden; margin-top:10px; margin-right:7px;}
+.dog.collapsed .badge { width:60px; height:60px; margin-top:-10px; }
+.dog .badge img { width:100%; height:100%; }
 
+.dog.collapsed .description { height:0px; overflow:hidden; }
+.dog .description { height:auto; font-size:12px; line-height:20px; }

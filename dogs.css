@@ -4,7 +4,9 @@ body { background: #e0e0e0; color:#e8e1e7; font-family: Lato; }
 
 .dog { background-color:#1a1a1a; width:475px; height:400px; margin:26px 0;  line-height:40px; font-size:26px; border-radius:14px; cursor:pointer;-webkit-transition: all 0.4s ease-out;-moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out; transition: all 0.4s ease-out;}
 
-.dogHeading { background: repeating-linear-gradient( 45deg, transparent, transparent 10px, #202020 10px, #202020 20px); width:calc(100% - 90px); padding:0 45px; border-radius:14px; }
+.dog.collapsed .dogHeading { padding:0 45px; -webkit-transition:all .3s linear; -moz-transition:all .3s linear; -ms-transition:all .3s linear; transition:all .3s linear;}
+.dogHeading { background: repeating-linear-gradient( 45deg, transparent, transparent 10px, #202020 10px, #202020 20px); width:calc(100% - 90px); padding:0 10px; border-radius:14px; -webkit-transition:all 0.4s ease-out; -moz-transition:all 0.4s ease-out; -ms-transition:all 0.4s ease-out; transition:all 0.4s ease-out;}
+
 .dog.collapsed { height:40px; }
 .dog .badge { width:160px; height:160px; float:left; border-radius:30px; overflow:hidden; margin-top:10px; margin-right:7px; cursor:pointer;-webkit-transition: all 0.4s ease-out;-moz-transition:all 0.4s ease-out; -ms-transition:all 0.4s ease-out; transition: all 0.4s ease-out; border:1px solid #1a1a1a;}
 .dog.collapsed .badge { width:60px; height:60px; margin-top:-10px; }

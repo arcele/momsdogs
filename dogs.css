@@ -2,11 +2,11 @@ body { background: #232323; color:#e8e1e7; font-family: Lato; }
 
 #header { color:#f3f3f3; width:100%; height:60px; line-height:60px; font-size:30px; margin:none; padding:0 20px; }
 
-.dog { background:#1a1a1a; width:475px; margin:22px 0; padding:0 45px; line-height:40px; font-size:26px; border-radius:14px; cursor:pointer;}
+.dog { background:#1a1a1a; width:475px; height:400px; margin:22px 0; padding:0 45px; line-height:40px; font-size:26px; border-radius:14px; cursor:pointer;-webkit-transition: all 0.4s ease-out;}
 .dog.collapsed { height:40px; }
-.dog .badge { width:100px; height:100px; float:left; border-radius:30px; overflow:hidden; margin-top:10px; margin-right:7px; cursor:pointer;}
+.dog .badge { width:100px; height:100px; float:left; border-radius:30px; overflow:hidden; margin-top:10px; margin-right:7px; cursor:pointer;-webkit-transition: all 0.4s ease-out;}
 .dog.collapsed .badge { width:60px; height:60px; margin-top:-10px; }
 .dog .badge img { width:100%; height:100%; }
 
-.dog.collapsed .description { height:0px; overflow:hidden; }
-.dog .description { height:auto; font-size:12px; line-height:20px; }
+.dog.collapsed .description { height:0px; overflow:hidden; opacity: 0; }
+.dog .description { height:auto; font-size:12px; opacity:1;line-height:20px; -webkit-transition:opacity 1.5s linear;}

@@ -4,6 +4,8 @@ body { background: #e0e0e0; color:#e8e1e7; font-family: Lato; }
 
 #header { color:#212121; width:100%; height:60px; line-height:60px; font-size:30px; text-align:center; }
 
+.content { background-color:#1a1a1a; font-size:10pt; padding:3px 15px; border-radius:14px; background:#efefef; color:#1a1a1a; border:1px solid #202020;}
+
 .dog { background-color:#1a1a1a; width:100%; margin:26px 0; height:525px; line-height:40px; font-size:26px; border-radius:14px; cursor:pointer;-webkit-transition: height 0.4s ease-out;-moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out; transition: all 0.4s ease-out;}
 .dog { border:1px solid #1a1a1a; background-color:#d51820; }
 

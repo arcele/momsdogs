@@ -1,13 +1,15 @@
 body { background: #e0e0e0; color:#e8e1e7; font-family: Lato; }
 
-#wrapper { width: 100%; }
+#wrapper { width: 100%; margin-bottom:100%;}
 
-#header { color:#212121; width:100%; height:60px; line-height:60px; font-size:30px; margin:none; padding:0 20px; }
+#header { color:#212121; width:100%; height:60px; line-height:60px; font-size:30px; text-align:center; }
 
-.dog { background-color:#1a1a1a; width:100%; margin:26px 0; height:525px; line-height:40px; font-size:26px; border-radius:14px; cursor:pointer;-webkit-transition: all 0.4s ease-out;-moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out; transition: all 0.4s ease-out;}
+.dog { background-color:#1a1a1a; width:100%; margin:26px 0; height:525px; line-height:40px; font-size:26px; border-radius:14px; cursor:pointer;-webkit-transition: height 0.4s ease-out;-moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out; transition: all 0.4s ease-out;}
+.dog { border:1px solid #1a1a1a; background-color:#d51820; }
 
 .dog.collapsed .dogHeading { padding:0 45px; -webkit-transition:all .4s linear; -moz-transition:all .4s linear; -ms-transition:all .4s linear; transition:all .4s linear;}
-.dogHeading { background: repeating-linear-gradient( 45deg, transparent, transparent 10px, #202020 10px, #202020 20px); padding:0 10px; border-radius:14px; -webkit-transition:all 0.4s ease-out; -moz-transition:all 0.4s ease-out; -ms-transition:all 0.4s ease-out; transition:all 0.4s ease-out;}
+.dogHeading { background: repeating-linear-gradient( 45deg, transparent, transparent 10px, #b91820 10px, #b91820 20px); padding:0 10px; border-radius:14px; }
+.dog:not(.collapsed) .dogHeading { border-bottom:1px solid #b91820; border-bottom-left-radius:0px; border-bottom-right-radius:0px; }
 
 .dog.collapsed { height:40px; }
 .dog .badge { width:300px; height:300px; float:left; border-radius:30px; overflow:hidden; margin-top:50px; margin-right:7px; cursor:pointer;-webkit-transition: all 0.4s ease-out;-moz-transition:all 0.4s ease-out; -ms-transition:all 0.4s ease-out; transition: all 0.4s ease-out; border:1px solid #1a1a1a;}

@@ -19,7 +19,7 @@ body { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%
 #wrapper .dog.collapsed { height: 40px;}
 
 .dog .dogHeading { background: repeating-linear-gradient( 45deg, transparent, transparent 10px, #b91820 10px, #b91820 20px); padding:0 10px; border-radius:14px; }
-.dog:not(.collapsed) .dogHeading { border-bottom:1px solid #b91820; border-bottom-left-radius:0px; border-bottom-right-radius:0px; }
+.dog:not(.collapsed) .dogHeading { border-bottom:1px solid #b91820; border-bottom-left-radius:0px; border-bottom-right-radius:0px; transition-delay: .2s; }
 .dog.alumni .dogHeading { text-align: right; }
 
 .dog .badge { width:300px; height:300px; float:left; border-radius:30px; overflow:hidden; margin-top:50px; margin-right:7px; cursor:pointer;-webkit-transition: all 1.2s ease-out;-moz-transition:all 0.4s ease-out; -ms-transition:all 0.4s ease-out; transition: all .4s ease-out; border:1px solid #1a1a1a;}

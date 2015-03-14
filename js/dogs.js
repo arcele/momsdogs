@@ -4,7 +4,6 @@ $(document).ready( function() {
 	console.log("checking out ", window.outerWidth);
 	if(window.outerWidth > 800) {
 		//probably not a phone
-		console.log('shrinking wrapper width.');
 		wrapper.css("width", "550px");
 	}
 

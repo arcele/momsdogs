@@ -19,15 +19,16 @@ body { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%
 #wrapper .dog.collapsed { height: 40px;}
 
 .dog .dogHeading { background: repeating-linear-gradient( 45deg, transparent, transparent 10px, #b91820 10px, #b91820 20px); padding:0 10px; border-radius:14px; }
-.dog.collapsed .dogHeading { padding:0 45px; -webkit-transition:padding .4s linear; -moz-transition:padding .4s linear; -ms-transition:padding .4s linear; transition:padding .4s linear;}
 .dog:not(.collapsed) .dogHeading { border-bottom:1px solid #b91820; border-bottom-left-radius:0px; border-bottom-right-radius:0px; }
 .dog.alumni .dogHeading { text-align: right; }
 
-.dog .badge { width:300px; height:300px; float:left; border-radius:30px; overflow:hidden; margin-top:50px; margin-right:7px; cursor:pointer;-webkit-transition: all 1.2s ease-out;-moz-transition:all 0.4s ease-out; -ms-transition:all 0.4s ease-out; transition: all .5s ease-out; border:1px solid #1a1a1a;}
+.dog .badge { width:300px; height:300px; float:left; border-radius:30px; overflow:hidden; margin-top:50px; margin-right:7px; cursor:pointer;-webkit-transition: all 1.2s ease-out;-moz-transition:all 0.4s ease-out; -ms-transition:all 0.4s ease-out; transition: all .4s ease-out; border:1px solid #1a1a1a;}
+
+
 .dog .badge.noimg { background: black; }
 .dog.alumni .badge { float:right; margin-left: 7px;}
+
 .dog.collapsed .badge { width:60px; height:60px; margin-top:-10px; }
 .dog .badge img { width:100%; height:100%; }
-
 .dog .description { height:auto; font-size:12px; opacity:1;line-height:20px; -webkit-transition:opacity .5s linear; -moz-transition:opacity .5s linear; -ms-transition:opacity .5s linear; transition:opacity .5s linear;-webkit-transition-delay: .5s; margin:10px;}
 .dog.collapsed .description { height:5px; overflow:hidden; opacity: 0; -webkit-transition:opacity .3s linear; -moz-transition:opacity .3s linear; -ms-transition:opacity .3s linear; transition: opacity .3s linear; }

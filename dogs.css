@@ -7,7 +7,10 @@ body { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%
 
 .content { background-color:#1a1a1a; font-size:10pt; padding:3px 15px; border-radius:14px; background:#efefef; color:#1a1a1a; border:1px solid #202020;}
 
+
 .dog { background-color:#1a1a1a; width:100%; margin:26px 0; height:525px; line-height:40px; font-size:26px; border-radius:14px; cursor:pointer; -webkit-transition: height 0.4s ease-out;-moz-transition: height 0.4s ease-out; -ms-transition: height 0.4s ease-out; transition: height 0.4s ease-out; border:1px solid #1a1a1a; background-color:#d51820; }
+
+
 .dog.collapsed { height:40px; }
 
 /* Custom Dog Heights */
@@ -31,3 +34,13 @@ body { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%
 .dog .badge img { width:100%; height:100%; }
 .dog .description { height:auto; font-size:12px; opacity:1;line-height:20px; -webkit-transition:opacity .5s linear; -moz-transition:opacity .5s linear; -ms-transition:opacity .5s linear; transition:opacity .5s linear;-webkit-transition-delay: .5s; margin:10px;}
 .dog.collapsed .description { height:5px; overflow:hidden; opacity: 0; -webkit-transition:opacity .3s linear; -moz-transition:opacity .3s linear; -ms-transition:opacity .3s linear; transition: opacity .3s linear; }
+
+
+/* mobile junk */
+/*
+#wrapper.mobile div { font-size: 2em; }
+#wrapper.mobile .dog.collapsed { height: 80px; line-height:80px;}
+#wrapper.mobile .dog.collapsed .badge { width:100px; height:100px; border-radius:60px; }
+#wrapper.mobile .dog { height:1500px;}
+#wrapper.mobile .dog .description { font-size: 1.5em; line-height:1.1em;}
+*/

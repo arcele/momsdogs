@@ -5,6 +5,8 @@ $(document).ready( function() {
 	if(window.outerWidth > 800) {
 		//probably not a phone
 		wrapper.css("width", "550px");
+	} else {
+		wrapper.addClass('mobile');
 	}
 
 	$('.dog, .dog .badge').on('click', function() {

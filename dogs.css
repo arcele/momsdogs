@@ -17,7 +17,7 @@ body { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%
 .dog.marley { height:550px; }
 .dog.sadie { height:460px; }
 .dog.sushi, .dog.sonic, .dog.mako, .dog.cabo { height:380px; }
-.dog.grady { height: 455px; }
+.dog.grady { height: 475px; }
 .dog.waldo { height: 400px; }
 .dog.pac { height: 470px;}
 #wrapper .dog.collapsed { height: 40px;}
@@ -45,3 +45,12 @@ body { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%
 #wrapper.mobile .dog .description { font-size: 1.5em; line-height:1.1em; }
 #wrapper.mobile .dog #header p { line-height:120px; }
 #wrapper.mobile .dog .dogHeading { height: 80px; line-height:80px; }
+
+/* Mobile Custom Dog Height */
+#wrapper.mobile .dog.marley { height:2000px; }
+#wrapper.mobile .dog.sadie { height:1400px; }
+#wrapper.mobile .dog.sushi, #wrapper.mobile .dog.sonic, #wrapper.mobile .dog.mako, #wrapper.mobile .dog.cabo { height:1050px; }
+#wrapper.mobile .dog.grady { height: 1500px; }
+#wrapper.mobile .dog.waldo { height: 1150px; }
+#wrapper.mobile .dog.pac { height: 1450px;}
+#wrapper.mobile .dog.collapsed { height: 40px;}

@@ -2,6 +2,7 @@ html { height:100%; font-family: Lato, Arial, Sans-Serif; background-color:#7db9
 body { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0e0e0), color-stop(100%,#7db9e8)); min-height:100%; margin:0;}
 
 #wrapper { width: 550px; min-height:100%; margin:3px 8px;}
+#wrapper.loading { display:none; }
 #header { color:#66afe8; width:100%; height:225px; background-image:url(img/header.png); background-position: top center; background-repeat:no-repeat;}
 #header p { line-height:60px; padding-top:165px; font-size:30px; text-align:center; font-weight:900; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
 
@@ -16,7 +17,7 @@ body { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%
 /* Custom Dog Heights */
 .dog.marley { height:550px; }
 .dog.sadie { height:460px; }
-.dog.sushi, .dog.sonic, .dog.mako, .dog.cabo { height:380px; }
+.dog.sushi, .dog.sonic, .dog.mako, .dog.cabo, .dog.rybo, .dog.donzi, .dog.parker, .dog.whaler, .dog.topaz, .dog.albie, .dog.trouble { height:380px; }
 .dog.grady { height: 475px; }
 .dog.waldo { height: 400px; }
 .dog.pac { height: 470px;}
@@ -49,8 +50,19 @@ body { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%
 /* Mobile Custom Dog Height */
 #wrapper.mobile .dog.marley { height:2000px; }
 #wrapper.mobile .dog.sadie { height:1400px; }
-#wrapper.mobile .dog.sushi, #wrapper.mobile .dog.sonic, #wrapper.mobile .dog.mako, #wrapper.mobile .dog.cabo { height:1050px; }
+#wrapper.mobile .dog.sushi, #wrapper.mobile .dog.sonic, #wrapper.mobile .dog.parker, #wrapper.mobile .dog.albie { height:1050px; }
+#wrapper.mobile .dog.lucas { height: 1750px; }
+#wrapper.mobile .dog.shamrock { height:1600px; }
+#wrapper.mobile .dog.junior { height: 1675px; }
 #wrapper.mobile .dog.grady { height: 1500px; }
 #wrapper.mobile .dog.waldo { height: 1150px; }
-#wrapper.mobile .dog.pac { height: 1450px;}
-#wrapper.mobile .dog.collapsed { height: 40px;}
+#wrapper.mobile .dog.mako { height:900px;}
+#wrapper.mobile .dog.cabo { height: 775px;}
+#wrapper.mobile .dog.pac { height: 1500px;}
+#wrapper.mobile .dog.rybo { height: 950px; }
+#wrapper.mobile .dog.donzi, #wrapper.mobile .dog.topaz { height: 675px; }
+#wrapper.mobile .dog.parker { height:675px; }
+#wrapper.mobile .dog.whaler { height:925px; }
+#wrapper.mobile .dog.trouble { height:725px; }
+
+#wrapper.mobile .dog.collapsed { height: 80px;}

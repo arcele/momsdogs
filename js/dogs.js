@@ -1,10 +1,11 @@
 $(document).ready( function() {
 	var wrapper = $('#wrapper');
 
-	console.log("checking out ", window.outerWidth);
 	if(window.outerWidth <= 800) {
 		wrapper.addClass('mobile');
 	}
+
+	wrapper.removeClass('loading');
 
 	$('.dog, .dog .badge').on('click', function() {
 		$(this).toggleClass('collapsed');

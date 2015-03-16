@@ -1,5 +1,5 @@
 html { height:100%; font-family: Lato, Arial, Sans-Serif; background-color:#7db9e8;}
-body { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0e0e0), color-stop(100%,#7db9e8)); min-height:100%; margin:0;}
+body {  min-height:100%; margin:0; background: background: #e0e0e0; -moz-linear-gradient(top,  #e0e0e0 0%, #7db9e8 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0e0e0), color-stop(100%,#7db9e8));background: -webkit-linear-gradient(top,  #e0e0e0 0%,#7db9e8 100%);background: -o-linear-gradient(top,  #e0e0e0 0%,#7db9e8 100%);background: -ms-linear-gradient(top,  #e0e0e0 0%,#7db9e8 100%);background: linear-gradient(to bottom,  #e0e0e0 0%,#7db9e8 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#7db9e8',GradientType=0 );}
 
 #wrapper { width: 550px; min-height:100%; margin:3px 8px;}
 #wrapper.loading { display:none; }
@@ -80,4 +80,5 @@ body { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%
 
 #gallery.expanded img.fadeout { opacity:.01; transition: opacity .5s linear; }
 #gallery.expanded:before { content: 'Click to Return To Index'; }
+#gallery.expanded:after { content: 'Images will automatically rotate'; font-size:10pt; }
 #wrapper.mobile #gallery.expanded:before { content: 'Tap to Return To Index'; }

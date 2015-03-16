@@ -70,15 +70,23 @@ body {  min-height:100%; margin:0; background: background: #e0e0e0; -moz-linear-
 
 /* Gallery CSS */
 
-#gallery { height: 25px; width:540px; margin:0 5px; line-height:25px; font-size:20px; color:black; text-align:center; background:white; position:absolute; -webkit-transition: height .75s ease-in; -moz-transition: height .75s ease-in; -ms-transition: height .75s ease-in; transition: height .75s ease-in;-webkit-border-bottom-right-radius: 8px;-webkit-border-bottom-left-radius: 8px;-moz-border-radius-bottomright: 8px;-moz-border-radius-bottomleft: 8px;border-bottom-right-radius: 8px;border-bottom-left-radius: 8px;border:1px solid black; border-top:none;}
+#gallery { height: 25px; width:540px; margin:0 5px; line-height:25px; font-size:20px; color:black; text-align:center; background:#f8f8f8; position:absolute; top:0; -webkit-transition: height .75s ease-in; -moz-transition: height .75s ease-in; -ms-transition: height .75s ease-in; transition: height .75s ease-in;-webkit-border-bottom-right-radius: 8px;-webkit-border-bottom-left-radius: 8px;-moz-border-radius-bottomright: 8px;-moz-border-radius-bottomleft: 8px;border-bottom-right-radius: 8px;border-bottom-left-radius: 8px;border:1px solid black; border-top:none;}
 
-#gallery:before { content: 'Click For Gallery';}
+#wrapper.mobile #gallery { width: 98%; height:40px; line-height:40px; }
+
+
+#gallery:before { content: 'Click For Gallery'; font-size:12pt;}
+#wrapper.mobile #gallery { font-size:28pt; }
+
 #wrapper.mobile #gallery:before { content: 'Tap For Gallery';}
 
 #gallery.expanded { height: 450px;  -webkit-transition: height .45s ease-in; -moz-transition: height .45s ease-in; -ms-transition: height .45s ease-in; transition: height .45s ease-in;}
 #gallery.expanded img { max-width:500px; margin:20px 10px; overflow:hidden; max-height:400px; opacity: 1; -webkit-transition: opacity .5s linear; -moz-transition: opacity .5s linear; -ms-transition: opacity .5s linear; transition: opacity .5s linear; }
 
+#wrapper.mobile #gallery.expanded { height: 700px; }
+#wrapper.mobile #gallery.expanded img { max-width: 90%; max-height: 625px; }
+
 #gallery.expanded img.fadeout { opacity:.01; transition: opacity .5s linear; }
-#gallery.expanded:before { content: 'Click to Return To Index'; }
-#gallery.expanded:after { content: 'Images will automatically rotate'; font-size:10pt; }
-#wrapper.mobile #gallery.expanded:before { content: 'Tap to Return To Index'; }
+#gallery.expanded:before { content: 'Click to Return Home'; }
+
+#wrapper.mobile #gallery.expanded:before { content: 'Tap to Return Home \n'; }

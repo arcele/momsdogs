@@ -15,9 +15,9 @@ $(document).ready( function() {
 
 	function Gallery() {
 		// Very basic rotating image gallery.
-		
+
 		this.el = $("#gallery"),
-		this.imageCount = 10,
+		this.imageCount = 22,
 		this.index = Math.ceil(Math.random() * this.imageCount),
 		this.timeouts = {};
 

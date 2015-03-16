@@ -3,7 +3,7 @@ body { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%
 
 #wrapper { width: 550px; min-height:100%; margin:3px 8px;}
 #wrapper.loading { display:none; }
-#header { color:#66afe8; width:100%; height:225px; background-image:url(img/header.png); background-position: top center; background-repeat:no-repeat;}
+#header { color:#66afe8; width:100%; height:225px; background-image:url(img/header.png); background-position: top center; background-repeat:no-repeat; }
 #header p { line-height:60px; padding-top:165px; font-size:30px; text-align:center; font-weight:900; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
 
 .content { background-color:#1a1a1a; font-size:10pt; padding:3px 15px; border-radius:14px; background:#efefef; color:#1a1a1a; border:1px solid #202020;}
@@ -66,3 +66,18 @@ body { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%
 #wrapper.mobile .dog.trouble { height:725px; }
 
 #wrapper.mobile .dog.collapsed { height: 80px;}
+
+
+/* Gallery CSS */
+
+#gallery { height: 25px; width:540px; margin:0 5px; line-height:25px; font-size:20px; color:black; text-align:center; background:white; position:absolute; -webkit-transition: height .75s ease-in; -moz-transition: height .75s ease-in; -ms-transition: height .75s ease-in; transition: height .75s ease-in;-webkit-border-bottom-right-radius: 8px;-webkit-border-bottom-left-radius: 8px;-moz-border-radius-bottomright: 8px;-moz-border-radius-bottomleft: 8px;border-bottom-right-radius: 8px;border-bottom-left-radius: 8px;border:1px solid black; border-top:none;}
+
+#gallery:before { content: 'Click For Gallery';}
+#wrapper.mobile #gallery:before { content: 'Tap For Gallery';}
+
+#gallery.expanded { height: 450px;  -webkit-transition: height .45s ease-in; -moz-transition: height .45s ease-in; -ms-transition: height .45s ease-in; transition: height .45s ease-in;}
+#gallery.expanded img { max-width:500px; margin:20px 10px; overflow:hidden; max-height:400px; opacity: 1; -webkit-transition: opacity .5s linear; -moz-transition: opacity .5s linear; -ms-transition: opacity .5s linear; transition: opacity .5s linear; }
+
+#gallery.expanded img.fadeout { opacity:.01; transition: opacity .5s linear; }
+#gallery.expanded:before { content: 'Click to Return To Index'; }
+#wrapper.mobile #gallery.expanded:before { content: 'Tap to Return To Index'; }
